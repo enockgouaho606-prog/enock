@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+
+    color: #222;
+
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+
+    color: #666;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #667eea;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5568d8;
+}
+
+.link,
+.upload-link {
+    display: block;
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: #667eea;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.audio-list {
+    margin-top: 30px;
+}
+
+.audio-card {
+    background: #f7f7f7;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border-radius: 12px;
+
+    border: 1px solid #eee;
+}
+
+.audio-card h3 {
+    margin-top: 0;
+
+    font-size: 16px;
+
+    color: #333;
+
+    word-break: break-all;
+}
+
+audio {
+    width: 100%;
+
+    margin: 10px 0;
+}
+
+.download {
+    display: inline-block;
+
+    padding: 10px 15px;
+
+    background: #667eea;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+.download:hover {
+    background: #5568d8;
+}
+
+.empty {
+    margin-top: 30px;
+
+    padding: 30px;
+
+    background: #f7f7f7;
+
+    border-radius: 10px;
+}
